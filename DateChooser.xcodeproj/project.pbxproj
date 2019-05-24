@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7057D7401E008CF000C383AF /* DateChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7057D7361E008CF000C383AF /* DateChooser.framework */; };
-		7057D7451E008CF000C383AF /* DateChooserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057D7441E008CF000C383AF /* DateChooserTests.swift */; };
 		7057D7471E008CF000C383AF /* DateChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7057D7391E008CF000C383AF /* DateChooser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7057D7511E008D4700C383AF /* DateChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057D7501E008D4700C383AF /* DateChooser.swift */; };
 		7057D7531E00908500C383AF /* DateChooserCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057D7521E00908500C383AF /* DateChooserCapabilities.swift */; };
@@ -17,23 +15,10 @@
 		70F50C391E1814B400BE7EE5 /* Date+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F50C381E1814B400BE7EE5 /* Date+Rounded.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7057D7411E008CF000C383AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7057D72D1E008CF000C383AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7057D7351E008CF000C383AF;
-			remoteInfo = DateChooser;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7057D7361E008CF000C383AF /* DateChooser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateChooser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7057D7391E008CF000C383AF /* DateChooser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateChooser.h; sourceTree = "<group>"; };
 		7057D73A1E008CF000C383AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7057D73F1E008CF000C383AF /* DateChooserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateChooserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7057D7441E008CF000C383AF /* DateChooserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateChooserTests.swift; sourceTree = "<group>"; };
-		7057D7461E008CF000C383AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7057D7501E008D4700C383AF /* DateChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateChooser.swift; sourceTree = "<group>"; };
 		7057D7521E00908500C383AF /* DateChooserCapabilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateChooserCapabilities.swift; sourceTree = "<group>"; };
 		707BEA261E92998600BA3862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DateChooser.storyboard; sourceTree = "<group>"; };
@@ -49,14 +34,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7057D73C1E008CF000C383AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7057D7401E008CF000C383AF /* DateChooser.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				7057D7381E008CF000C383AF /* DateChooser */,
-				7057D7431E008CF000C383AF /* DateChooserTests */,
 				7057D7371E008CF000C383AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				7057D7361E008CF000C383AF /* DateChooser.framework */,
-				7057D73F1E008CF000C383AF /* DateChooserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,15 +65,6 @@
 				7057D73A1E008CF000C383AF /* Info.plist */,
 			);
 			path = DateChooser;
-			sourceTree = "<group>";
-		};
-		7057D7431E008CF000C383AF /* DateChooserTests */ = {
-			isa = PBXGroup;
-			children = (
-				7057D7441E008CF000C383AF /* DateChooserTests.swift */,
-				7057D7461E008CF000C383AF /* Info.plist */,
-			);
-			path = DateChooserTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,24 +99,6 @@
 			productReference = 7057D7361E008CF000C383AF /* DateChooser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7057D73E1E008CF000C383AF /* DateChooserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7057D74D1E008CF000C383AF /* Build configuration list for PBXNativeTarget "DateChooserTests" */;
-			buildPhases = (
-				7057D73B1E008CF000C383AF /* Sources */,
-				7057D73C1E008CF000C383AF /* Frameworks */,
-				7057D73D1E008CF000C383AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7057D7421E008CF000C383AF /* PBXTargetDependency */,
-			);
-			name = DateChooserTests;
-			productName = DateChooserTests;
-			productReference = 7057D73F1E008CF000C383AF /* DateChooserTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,12 +110,6 @@
 				ORGANIZATIONNAME = "BSN Design";
 				TargetAttributes = {
 					7057D7351E008CF000C383AF = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = M9Y5WF87VL;
-						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
-					};
-					7057D73E1E008CF000C383AF = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = M9Y5WF87VL;
 						LastSwiftMigration = 0920;
@@ -189,7 +131,6 @@
 			projectRoot = "";
 			targets = (
 				7057D7351E008CF000C383AF /* DateChooser */,
-				7057D73E1E008CF000C383AF /* DateChooserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,13 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				707BEA271E92998600BA3862 /* DateChooser.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7057D73D1E008CF000C383AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,23 +158,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7057D73B1E008CF000C383AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7057D7451E008CF000C383AF /* DateChooserTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7057D7421E008CF000C383AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7057D7351E008CF000C383AF /* DateChooser */;
-			targetProxy = 7057D7411E008CF000C383AF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		707BEA251E92998600BA3862 /* DateChooser.storyboard */ = {
@@ -420,34 +338,6 @@
 			};
 			name = Release;
 		};
-		7057D74E1E008CF000C383AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = M9Y5WF87VL;
-				INFOPLIST_FILE = DateChooserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = design.bsn.DateChooserTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		7057D74F1E008CF000C383AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = M9Y5WF87VL;
-				INFOPLIST_FILE = DateChooserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = design.bsn.DateChooserTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,15 +355,6 @@
 			buildConfigurations = (
 				7057D74B1E008CF000C383AF /* Debug */,
 				7057D74C1E008CF000C383AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7057D74D1E008CF000C383AF /* Build configuration list for PBXNativeTarget "DateChooserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7057D74E1E008CF000C383AF /* Debug */,
-				7057D74F1E008CF000C383AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
