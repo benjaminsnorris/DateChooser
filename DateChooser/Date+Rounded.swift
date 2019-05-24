@@ -16,7 +16,7 @@ public extension Date {
      - parameter minutes: Number of minutes to use in rounding. When used together
      with `UIDatePicker`, this should match the `minuteInterval`.
      */
-    public func rounded(minutes: Int) -> Date {
+    func rounded(minutes: Int) -> Date {
         let calendar = NSCalendar.current
         var components = calendar.dateComponents([.minute], from: self)
         guard let originalMinutes = components.minute else { return self }
