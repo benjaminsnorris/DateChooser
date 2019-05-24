@@ -133,7 +133,7 @@ public protocol DateChooserDelegate: class {
         }
     }
     
-    @IBInspectable open var blurEffectStyle: UIBlurEffectStyle = .extraLight {
+    @IBInspectable open var blurEffectStyle: UIBlurEffect.Style = .extraLight {
         didSet {
             updateBlur()
         }
