@@ -447,6 +447,9 @@ private extension DateChooser {
         segmentedControl.isHidden = !dateAndTimeSeparate
         segmentedContainer.isHidden = !dateAndTimeSeparate
         title.isHidden = computedCapabilities.contains(.countdown)
+        if #available(iOSApplicationExtension 14.0, *) {
+            datePicker.preferredDatePickerStyle = .inline
+        }
         let currentButtonTitle: String
         if dateAndTimeSeparate {
             updateDatePicker()
@@ -466,6 +469,9 @@ private extension DateChooser {
             dateFormatter.dateStyle = .full
             currentButtonTitle = NSLocalizedString("Set to current date/time", comment: "Button title to set date to current date and time")
         } else if computedCapabilities.contains(.countdown) {
+            if #available(iOSApplicationExtension 13.4, *) {
+                datePicker.preferredDatePickerStyle = .automatic
+            }
             datePicker.datePickerMode = .countDownTimer
             currentButtonTitle = ""
         } else {
