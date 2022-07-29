@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol DateChooserViewControllerDelegate: class {
+public protocol DateChooserViewControllerDelegate: AnyObject {
     func backgroundTapped()
 }
 
