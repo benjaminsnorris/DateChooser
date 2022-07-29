@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol DateChooserDelegate: class {
+public protocol DateChooserDelegate: AnyObject {
     func dateChanged(to date: Date?)
     func countdownDurationChanged(to duration: TimeInterval)
     func dateChooserSaved(with date: Date?, duration: TimeInterval)
