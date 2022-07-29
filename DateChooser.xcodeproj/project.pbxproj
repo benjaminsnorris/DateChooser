@@ -85,9 +85,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7057D74A1E008CF000C383AF /* Build configuration list for PBXNativeTarget "DateChooser" */;
 			buildPhases = (
+				7057D7331E008CF000C383AF /* Headers */,
 				7057D7311E008CF000C383AF /* Sources */,
 				7057D7321E008CF000C383AF /* Frameworks */,
-				7057D7331E008CF000C383AF /* Headers */,
 				7057D7341E008CF000C383AF /* Resources */,
 			);
 			buildRules = (
